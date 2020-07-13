@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JDOT application Test Automation Tests Suite]">
+  <listeners>
+    <listener class-name="com.extentreport.listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.jdot.qa.pages.LoginPage">
+        <methods>
+          <include name="TC_Login_01_07"/>
+          <include name="TC_Login_01_04"/>
+          <include name="TC_Login_01_01"/>
+          <include name="TC_Login_01_06"/>
+          <include name="TC_Login_01_03"/>
+          <include name="TC_Login_01_02"/>
+          <include name="TC_Login_01_10"/>
+          <include name="TC_Login_01_09"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="initialization"/>
+          <include name="TC_Login_01_05"/>
+        </methods>
+      </class> <!-- com.jdot.qa.pages.LoginPage -->
+      <class name="com.jdot.qa.pages.MenCollectionPage">
+        <methods>
+          <include name="TC_Cart_04_05_A"/>
+          <include name="SetUp"/>
+          <include name="TC_Cart_04_05_B"/>
+          <include name="TC_AddToBag_03_04_A"/>
+          <include name="tearDown"/>
+          <include name="TC_MainCart_05_13"/>
+          <include name="TC_MainCart_05_10"/>
+          <include name="TC_MainCart_05_12"/>
+          <include name="TC_Festive_02_01"/>
+          <include name="TC_Festive_02_04"/>
+          <include name="TC_MainCart_05_11"/>
+          <include name="TC_Festive_02_02"/>
+          <include name="TC_Festive_02_03"/>
+          <include name="TC_Cart_04_02"/>
+          <include name="TC_Cart_04_01"/>
+          <include name="TC_Cart_04_06"/>
+          <include name="TC_Cart_04_03"/>
+          <include name="TC_AddToBag_03_01"/>
+          <include name="TC_AddToBag_03_02"/>
+          <include name="TC_AddToBag_03_05"/>
+          <include name="TC_AddToBag_03_06"/>
+          <include name="TC_AddToBag_03_03"/>
+          <include name="TC_Recovery_15_09"/>
+          <include name="TC_MainCart_05_02"/>
+          <include name="TC_AddToBag_03_04_B"/>
+          <include name="TC_MainCart_05_01"/>
+          <include name="TC_MainCart_05_06"/>
+          <include name="TC_MainCart_05_03"/>
+          <include name="TC_MainCart_05_05"/>
+          <include name="TC_Site_01_01"/>
+          <include name="TC_Cart_04_07"/>
+          <include name="TC_MainCart_05_07"/>
+          <include name="TC_Cart_04_04"/>
+          <include name="TC_MainCart_05_04"/>
+          <include name="TC_MainCart_05_09"/>
+          <include name="initialization"/>
+          <include name="TC_MainCart_05_08"/>
+        </methods>
+      </class> <!-- com.jdot.qa.pages.MenCollectionPage -->
+      <class name="com.jdot.qa.pages.SignUpPage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TC_Signup_02_05"/>
+          <include name="TC_Signup_02_02"/>
+          <include name="TC_Signup_02_03"/>
+          <include name="TC_Signup_02_01"/>
+          <include name="TC_Signup_02_04"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.jdot.qa.pages.SignUpPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [JDOT application Test Automation Tests Suite] -->

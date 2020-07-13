@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JDOT application Test Automation Tests Suite">
+
+	<listeners>
+		<listener
+			class-name="com.extentreport.listener.ExtentReportListener"></listener>
+	</listeners>
+
+	<test name="Test">
+
+
+		<classes>
+			<class name="com.jdot.qa.pages.SignUpPage" />
+			<class name="com.jdot.qa.pages.MenCollectionPage" />
+			<class name="com.jdot.qa.pages.LoginPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
